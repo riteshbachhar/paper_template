@@ -1,6 +1,7 @@
 # paper_template
 
-PDFlatex
+[![Latest build](https://img.shields.io/badge/PDF-latest-orange.svg?style=flat)](../pdflatex/paper.pdf)
+
 
 ### Arxiv paper submission
 1. Create submission directory
