@@ -1,5 +1,7 @@
 # paper_template
 
+PDFlatex
+
 ### Arxiv paper submission
 1. Create submission directory
 2. copy paper.tex, paper.bbl, and figures to submission/
