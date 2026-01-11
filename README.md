@@ -8,7 +8,7 @@
 2. copy paper.tex, paper.bbl, and figures to submission/
 3. (Optional) Delete unused figures
     - `cd submission`
-    - List all used figures: `grep -roh '\\includegraphics\(\[.*\]\)\?{[^}]*}' *.tex | sed 's/.*{//;s/}//' > used_figures.txt`
+    - List all used figures: `grep -roh '\\includegraphics\(\[.*\]\)\?{[^}]*}' *.tex | sed 's/.*{//;s/}//;s/.*\///' > used_figures.txt`
     - List all files in the figures/ directory: `ls figures/ > all_figures.txt`
     - Sort files: `sort all_figures.txt -o all_figures.txt; sort used_figures.txt -o used_figures.txt`
     - `comm -23 all_figures.txt used_figures.txt > unused_figures.txt`
