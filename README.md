@@ -14,4 +14,4 @@
     - `comm -23 all_figures.txt used_figures.txt > unused_figures.txt`
     - Review
     - Delete: `cat unused_figures.txt | xargs -I{} rm figures/{}`
-    - `tar -czf paper_submission.tar.gz -C submission .`
+    - `tar -czf paper_submission.tar.gz --exclude='paper_submission.tar.gz' .`
